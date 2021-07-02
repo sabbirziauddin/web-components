@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB Components</title>
+    <style>
+        
+
+
+        
+        .header {
+            color: #ff0000;
+            margin :auto;
+            text-align: center;
+            margin-bottom:5px ;
+            background-color: bisque;
+            padding: 3px;
+            width: 500px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class ="header">
+        <h1>VSR people</h3>
+    </div>
+        
+   <user-card name ="PROF. DR.-ING. MARTIN GAEDKE" avatar="https://vsr.informatik.tu-chemnitz.de/svnproxy/images/people/gaedke.png">
+        <div slot="email"> gaedke@informatik.tu-chemnitz.de</div>
+        <div slot="phone">+4937153125530</div>
+    </user-card>
+   <user-card name ="DAJANA HERKLOTZ" avatar="	https://vsr.informatik.tu-chemnitz.de/svnproxy/images/people/herklotz.png">
+    <div slot="email">dajana.herklotz@informatik.tu-chemnitz.de</div>
+    <div slot="phone">+4937153137926</div></user-card>
+    <user-card name ="DAJANA HERKLOTZ" avatar="https://vsr.informatik.tu-chemnitz.de/svnproxy/images/people/SebastianHeil.png	">
+        <div slot="email">dajana.herklotz@informatik.tu-chemnitz.de</div>
+        <div slot="phone">+4937153137926</div></user-card>
+
+   <user-card name ="Sebastian Heil" avatar="https://vsr.informatik.tu-chemnitz.de/svnproxy/images/people/SebastianHeil.png">
+    <div slot="email">sebastian.heil@informatik.tu-chemnitz.de</div>
+    <div slot="phone">+49371531832861</div></user-card>
+   
+    <script src="profile.js"></script>
+
+    </body>
+</html>
